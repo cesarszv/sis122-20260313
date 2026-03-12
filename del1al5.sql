@@ -1,0 +1,23 @@
+-- SELECT BASICOS
+
+-- 1. Mostrar todos los estudiantes.
+SELECT * FROM Estudiantes;
+
+-- 2. Mostrar nombre y carrera de los estudiantes.
+SELECT nombre, carrera
+FROM Estudiantes;
+
+-- 3. Mostrar estudiantes mayores de 20 años.
+SELECT nombre, edad
+FROM Estudiantes
+WHERE edad > 20;    
+
+-- 4. Mostrar cursos ordenados alfabéticamente.
+SELECT *
+FROM Cursos
+ORDER BY nombre ASC;
+
+-- 5. Mostrar profesores del departamento "Informática".
+SELECT nombre,departamento
+FROM profesores
+WHERE departamento = `Informatica`;
