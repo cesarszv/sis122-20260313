@@ -9,9 +9,8 @@ Estudiante:
 =====================================
 */
 
----
-
-Estudiantes ( 
+CREATE TABLE IF NOT EXISTS Estudiantes 
+( 
     id_estudiante INT PRIMARY KEY,
     nombre VARCHAR(50),
     carrera VARCHAR(50),
@@ -19,24 +18,25 @@ Estudiantes (
 );
 
 
-Profesores (
+CREATE TABLE IF NOT EXISTS Profesores 
+(
     id_profesor INT PRIMARY KEY,
     nombre VARCHAR(50),
     departamento VARCHAR(50)
 );
 
 
-Cursos ( 
+CREATE TABLE IF NOT EXISTS Cursos 
+( 
     id_curso INT PRIMARY KEY,
     nombre VARCHAR(50),
-    idProfesor INT
+    id_profesor INT
 );
 
-Inscripciones (
+CREATE TABLE IF NOT EXISTS Inscripciones 
+(
     id_inscripcion INT PRIMARY KEY,
     id_estudiante INT,
     id_curso INT,
     nota Decimal(10,2)
 );
-
-
