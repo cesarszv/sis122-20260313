@@ -1,3 +1,9 @@
+# Modelo de Examen
+
+- Cesar Sebastian Zambrana Ventura
+
+## Diagrama ER:
+
 ```mermaid
 erDiagram
     estudiantes {
@@ -31,3 +37,7 @@ erDiagram
     cursos ||--o{ inscripciones : recibe
 
 ```
+
+## Repo
+
+los ejercicios se encuentran en `/assignment`
