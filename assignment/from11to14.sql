@@ -3,7 +3,7 @@ INSERTS
 */
 
 
---11. Insertar un estudiante nuevo.
+-- 11. Insertar un estudiante nuevo.
 -- INSERT INTO Estudiantes VALUES ( 1, 'Ana Lopez', 'Informática', 20 );
 INSERT INTO estudiantes
 (
